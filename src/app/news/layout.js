@@ -1,11 +1,11 @@
-import './globals.css'
-import './base.css'
+import '../../app/base.css'
+import '../../app/globals.css'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Хождение в огонь',
+  title: 'Новости',
 }
 
 export default function RootLayout({ children }) {

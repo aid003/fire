@@ -6,14 +6,15 @@ import Image from "next/image";
 
 const getInfo = async () => {
   const data = await getMainPageInfo(
-    `${process.env.NEXT_PUBLIC_STRAPI_URL}/main-infos/1?populate=*`,
-    { next: { revalidate: 60, useCdn: false } }
+    `${process.env.NEXT_PUBLIC_STRAPI_URL}/main-info?populate=*`,
+    { next: { revalidate: 30, useCdn: false } }
   );
   return data.data;
 };
 
 const Home = async () => {
   const info = await getInfo();
+
 
   return (
     <>

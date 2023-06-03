@@ -36,6 +36,7 @@
   font-size: larger;
   font-weight: 600;
   line-break: 1.3;
+  white-space: pre-line;
   padding: 3vh 0vh 7vh 0vh;
 }
 

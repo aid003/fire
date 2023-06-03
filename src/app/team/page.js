@@ -6,7 +6,7 @@ import styles from "./team.module.css";
 
 const getInfo = async () => {
   const data = await getMainPageInfo(
-    `${process.env.NEXT_PUBLIC_STRAPI_URL}/team-pages/1?populate=*`,
+    `${process.env.NEXT_PUBLIC_STRAPI_URL}/team-page?populate=*`,
     { next: { revalidate: 60, useCdn: false } }
   );
   //   console.log(data.data);

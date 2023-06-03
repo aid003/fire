@@ -8,11 +8,11 @@ import SliderAbout from "./SliderAbout";
 
 const getInfo = async () => {
   const data = await getMainPageInfo(
-    `${process.env.NEXT_PUBLIC_STRAPI_URL}/about-pages?populate=*`,
+    `${process.env.NEXT_PUBLIC_STRAPI_URL}/about-page?populate=*`,
     { next: { revalidate: 60, useCdn: false } }
   );
   //   console.log(data.data);
-  return data.data[0];
+  return data.data;
 };
 
 const Page = async () => {

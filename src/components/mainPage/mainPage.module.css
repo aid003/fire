@@ -41,7 +41,7 @@
 }
 
 .formButton {
-  width: 40vh;
+  width: 50%;
   height: 7vh;
   display: flex;
   align-items: center;
@@ -50,20 +50,21 @@
   border-radius: 30px;
   border: 2px solid #91a6ff;
   cursor: pointer;
+  margin-bottom: 10vh;
 }
 
 .circle {
   content: "";
   height: 100%;
-  width: 8vh;
-  border-radius: 30px;
+  width: 20%;
+  border-radius: 40%;
   background-color: #91a6ff;
   cursor: pointer;
 }
 
 .buttonRedirect {
   height: 100%;
-  border-radius: 30px;
+  border-radius: 20%;
   border: none;
   background-color: inherit;
   font-size: large;
@@ -90,4 +91,81 @@
 
 .current {
   color: orange;
+}
+
+.burgerMenu {
+  display: none;
+}
+
+@media(max-width: 1455px) {
+  .categoryList {
+    margin-left: 10vh;
+  }
+}
+
+@media(max-width: 1270px) {
+  .burgerMenu {
+    display: block;
+  }
+
+  .categoryList {
+    display: none;
+  }
+
+  .categoryList {
+    margin-left: 3vh;
+    margin-right: 3vh;
+  }
+
+  .buttonBurg {
+    margin-left: 40vh;
+    font-size: 50px;
+    color: white;
+  }
+
+  .burgerList {
+    position: absolute;
+    top: 12vh;
+    right: 0;
+    width: 65%;
+    background-color: rgba(0, 0, 0, 0.717);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .burgerItem {
+    margin: 2vh 2vh 3vh 2vh;
+  }
+
+  .categoryLink {
+    color: white;
+  }
+}
+
+@media (max-width: 835px) {
+  .buttonBurg {
+    margin-left: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .formButton {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .formButton {
+    width: 85%;
+  }
 }

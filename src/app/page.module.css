@@ -1,41 +1,61 @@
 .container {
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
 }
 
 .mainImgBlock {
-	display: flex;
-	height: 100%;
-	width: 50%;
-	max-width: 70%;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  height: 100%;
+  width: 50%;
+  max-width: 90%;
+  align-items: center;
+  justify-content: center;
 }
 
 .img {
-	margin-top: 5vh;
-	width: 100%;
-	max-height: 70%;
+  margin-top: 5vh;
+  width: 100%;
+  height: 85%;
 }
 
 .mainText {
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-	width: 40%;
-	align-items: center;
-	justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 40%;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .heading {
-	font-size: x-large;
-	font-weight: 700;
+  font-size: xx-large;
+  font-weight: 800;
+  font-family: "Lucida Sans";
 }
 
 .text {
-	margin-top: 3vh;
-	margin-bottom: 5vh;
-	line-height: 1.5;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  line-height: 1.5;
+  white-space: pre-line;
+}
+
+
+@media (max-width: 850px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .mainImgBlock {
+    width: 100%;
+  }
+
+  .mainText {
+    width: 90%;
+  }
 }

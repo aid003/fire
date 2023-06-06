@@ -188,3 +188,9 @@
   }
   
 }
+
+@media(max-width: 380px) {
+  .circle {
+    border-radius: 50%;
+  }
+}

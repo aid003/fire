@@ -140,15 +140,23 @@
 
 @media(max-width: 485px) {
   .video {
-    width: 55vh;
+    width: 50vh;
+    height: 50vh;
+  }
+}
+
+@media(max-width: 415px) {
+  .video {
+    width: 46vh;
     height: 50vh;
   }
 }
 
 
+
 @media(max-width: 375px) {
   .video {
-    width: 45vh;
+    width: 44vh;
     height: 45vh;
   }
 }

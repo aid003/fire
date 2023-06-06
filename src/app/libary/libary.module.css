@@ -103,3 +103,55 @@
 .textContainerModal {
 	line-height: 1.5;
 }
+
+@media(max-width: 1600px) {
+  .openCard {
+    width: 60%;
+  }
+
+  .imgModal {
+    min-width: 80%;
+    min-height: 40%;
+    max-width: 80%;
+    max-height: 40%;
+  }
+}
+
+@media(max-width: 660px) {
+  .openCard {
+    width: 70%;
+  }
+
+  .imgModal {
+    min-width: 80%;
+    min-height: 30%;
+    max-width: 80%;
+    max-height: 30%;
+  }
+}
+
+@media(max-width: 515px) {
+  .openCard {
+    width: 80%;
+  }
+
+  .imgModal {
+    min-width: 95%;
+    min-height: 30vh;
+    max-width: 95%;
+    max-height: 30vh;
+  }
+}
+
+@media(max-width: 380px) {
+  .openCard {
+    width: 80%;
+  }
+
+  .imgModal {
+    min-width: 99%;
+    min-height: 26vh;
+    max-width: 99%;
+    max-height: 26vh;
+  }
+}

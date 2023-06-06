@@ -1,5 +1,5 @@
 .container {
-  height: 12vh;
+  height: 15vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -42,7 +42,7 @@
 
 .formButton {
   width: 50%;
-  height: 7vh;
+  height: 9vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -56,7 +56,7 @@
 .circle {
   content: "";
   height: 100%;
-  width: 20%;
+  width: 25%;
   border-radius: 40%;
   background-color: #91a6ff;
   cursor: pointer;
@@ -125,7 +125,7 @@
 
   .burgerList {
     position: absolute;
-    top: 12vh;
+    top: 15vh;
     right: 0;
     width: 65%;
     background-color: rgba(0, 0, 0, 0.717);
@@ -160,12 +160,31 @@
   }
 
   .formButton {
-    width: 60%;
+    width: 70%;
+  }
+
+  .heading {
+    font-size: x-large;
+  }
+
+  .logoImg {
+    min-height: 12vh;
+    max-height: 12vh;
+    min-width: 95%;
+    max-width: 95%;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 450px) {
   .formButton {
     width: 85%;
   }
+
+  .logoImg {
+    min-height: 10vh;
+    max-height: 10vh;
+    min-width: 99%;
+    max-width: 99%;
+  }
+  
 }

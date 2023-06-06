@@ -21,7 +21,7 @@ const HeaderDesctop = ({ children }) => {
 		<>
 			<div className={styles.container}>
 				<div className={styles.logo}>
-					<Image alt='logo' height={90} width={90} src={logo}></Image>
+					<Image className={styles.logoImg} alt='logo' height={90} width={90} src={logo}></Image>
 				</div>
 				<h1 className={styles.heading}>Хождение в огонь</h1>
 				<ul className={styles.categoryList}>

@@ -106,9 +106,9 @@
 
 .closeButton {
   position: sticky;
-  top: 13vh;
+  top: 16vh;
   margin: 3vh;
-  width: 15vh;
+  width: max-content;
   height: 8vh;
   padding: 1vh 2vh 1vh 2vh;
   background-color: inherit;
@@ -116,4 +116,39 @@
   border: 2px solid blue;
   font-size: larger;
   cursor: pointer;
+}
+
+
+@media(max-width: 830px) {
+  .video {
+    width: 100vh;
+    height: 60vh;
+  }
+
+  .windowText {
+    line-height: 1.5;
+    width: 90%;
+  }
+}
+
+@media(max-width: 680px) {
+  .video {
+    width: 70vh;
+    height: 60vh;
+  }
+}
+
+@media(max-width: 485px) {
+  .video {
+    width: 55vh;
+    height: 50vh;
+  }
+}
+
+
+@media(max-width: 375px) {
+  .video {
+    width: 45vh;
+    height: 45vh;
+  }
 }

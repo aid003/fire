@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import styles from './mainPage.module.css'
 import Link from 'next/link'
-import logo from '../../../public/logo.png'
+import logo from '../../../public/favicon/вхождение в огоньь.png'
 import { AiOutlineAlignRight } from "react-icons/ai"
 import { AiOutlineClose } from "react-icons/ai"
 import { useState } from 'react'
@@ -21,9 +21,9 @@ const HeaderDesctop = ({ children }) => {
 		<>
 			<div className={styles.container}>
 				<div className={styles.logo}>
-					<Image className={styles.logoImg} alt='logo' height={90} width={90} src={logo}></Image>
+					<Image className={styles.logoImg} alt='logo' height={90} width={200} src={logo}></Image>
 				</div>
-				<h1 className={styles.heading}>Хождение в огонь</h1>
+				
 				<ul className={styles.categoryList}>
 					<li className={styles.categoryItem}>
 						<Link className={styles.categoryLink} href={'/'}>Главная</Link>

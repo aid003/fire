@@ -1,32 +1,48 @@
 .container {
   width: 100%;
+  background-image: url("../../public/favicon/photo_2023-06-21_23-41-58.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
+}
+
+.somethingText {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textParag {
+  width: 30%;
+
 }
 
 .mainImgBlock {
   display: flex;
   height: 100%;
-  width: 50%;
-  max-width: 90%;
+  width: 100%;
   align-items: center;
   justify-content: center;
 }
 
 .img {
   margin-top: 5vh;
-  width: 100%;
+  width: 70%;
   height: 85%;
 }
 
 .mainText {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 40%;
+  width: 100%;
   align-items: center;
   justify-content: space-around;
+  padding: 5vh 7% 5vh 7%;
 }
 
 .heading {

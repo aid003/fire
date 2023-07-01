@@ -5,7 +5,7 @@
   align-items: center;
   flex-direction: row;
   background-color: #ffffff;
-  background-image: linear-gradient(315deg, #dde0f9 0%, #91a6ff 74%);
+  background-image: linear-gradient(315deg, #b03951 0%, #8547bc 70%);
   padding: 2vh;
   position: sticky;
   top: 0;
@@ -70,6 +70,19 @@
   font-size: large;
   font-weight: 600;
   cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  width: 30%;
+  height: max-content;
+}
+
+.logoImg {
+  min-width: 90%;
+  max-width: 90%;
+  min-height: 20vh;
+  max-height: 20vh;
 }
 
 .formButton:hover {
@@ -181,8 +194,8 @@
   }
 
   .logoImg {
-    min-height: 10vh;
-    max-height: 10vh;
+    min-height: 15vh;
+    max-height: 15vh;
     min-width: 90%;
     max-width: 90%;
   }

@@ -15,11 +15,14 @@ const getInfo = async () => {
 const Home = async () => {
   const info = await getInfo();
 
-
   return (
     <>
       <HeaderDesctop>
         <div className={styles.container}>
+          <div className={styles.somethingText}>
+            <p className={styles.textParag}>А. Проханов. Россия — это гигантский духовный танк, который ведёт
+            свой тысячелетний бой.</p>
+          </div>
           <div className={styles.mainImgBlock}>
             <Image
               className={styles.img}

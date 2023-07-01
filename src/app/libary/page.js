@@ -21,7 +21,7 @@ const page = async () => {
           {info.map((item) => (
             <Card
               key={item.id}
-              data={item.attributes}
+              data={item?.attributes}
               baseUrl={process.env.NEXT_GET_IMG}
             />
           ))}

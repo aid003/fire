@@ -9,7 +9,7 @@ const getInfo = async () => {
     { next: { revalidate: 300, useCdn: false } }
   );
   //   console.log(data.data);
-  return data.data;
+  return data?.data;
 };
 
 const page = async () => {
@@ -20,7 +20,7 @@ const page = async () => {
         <div className={styles.container}>
           {info.map((item) => (
             <Card
-              key={item.id}
+              key={item?.id}
               data={item?.attributes}
               baseUrl={process.env.NEXT_GET_IMG}
             />

@@ -19,9 +19,9 @@ const Card = ({ data, baseUrl }) => {
             setActive(0);
           }}>
           <ModalWindow
-            img={`${baseUrl}${data.img.data.attributes.url}`}
-            title={data.title}
-            text={data.text}
+            img={`${baseUrl}${data?.img?.data?.attributes?.url}`}
+            title={data?.title}
+            text={data?.text}
           />
         </div>
       ) : ''}
@@ -31,10 +31,10 @@ const Card = ({ data, baseUrl }) => {
           className={styles.img}
           width={450}
           height={300}
-          src={`${baseUrl}${data.img.data.attributes.url}`}
+          src={`${baseUrl}${data?.img?.data?.attributes?.url}`}
         />
-        <h3 className={styles.heading}>{data.title}</h3>
-        <div className={styles.textContainer}>{data.text}</div>
+        <h3 className={styles.heading}>{data?.title}</h3>
+        <div className={styles.textContainer}>{data?.text}</div>
       </div>
     </>
   );

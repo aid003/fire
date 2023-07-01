@@ -20,12 +20,12 @@ const page = async () => {
       <HeaderDesctop>
         <div className={styles.container}>
           <SliderTeam
-            data={info.attributes.imgs.data}
+            data={info?.attributes.imgs.data}
             baseUrl={process.env.NEXT_GET_IMG}
           />
-          <h3 className={styles.heading}>{info.attributes.title}</h3>
+          <h3 className={styles.heading}>{info?.attributes.title}</h3>
           <div className={styles.textContainer}>
-            <p className={styles.text}>{info.attributes.text}</p>
+            <p className={styles.text}>{info?.attributes.text}</p>
           </div>
         </div>
       </HeaderDesctop>

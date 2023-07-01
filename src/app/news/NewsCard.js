@@ -10,8 +10,8 @@ const NewsCard = ({ baseUrl, data }) => {
   const [isActivateModalWindow, setIsActivataModalWindow] = useState(false);
 
   useEffect(() => {
-    if (data.attributes.isHaveVideo && data.attributes.video.data != null) {
-      setVideoUrl(data.attributes.video.data[0].attributes.url);
+    if (data?.attributes.isHaveVideo && data?.attributes.video.data != null) {
+      setVideoUrl(data?.attributes.video.data[0]?.attributes.url);
     }
   }, [data]);
 
@@ -29,11 +29,11 @@ const NewsCard = ({ baseUrl, data }) => {
             Закрыть
           </button>
           <ModalNewsWindow
-            img={`${baseUrl}${data.attributes.img.data.attributes.url}`}
-            text={data.attributes.text}
+            img={`${baseUrl}${data?.attributes.img.data.attributes.url}`}
+            text={data?.attributes.text}
             video={`${baseUrl}${videoUrl}`}
-            title={data.attributes.title}
-            isVideo={data.attributes.isHaveVideo}
+            title={data?.attributes.title}
+            isVideo={data?.attributes.isHaveVideo}
           />
         </div>
       )}
@@ -42,13 +42,13 @@ const NewsCard = ({ baseUrl, data }) => {
           className={styles.img}
           width={400}
           height={400}
-          src={`${baseUrl}${data.attributes.img.data.attributes.url}`}
+          src={`${baseUrl}${data?.attributes.img.data?.attributes.url}`}
           alt=""
         />
         <div className={styles.textContent}>
-          <h3 className={styles.headingCard}>{data.attributes.title}</h3>
+          <h3 className={styles.headingCard}>{data?.attributes.title}</h3>
           <p className={styles.shortDescription}>
-            {data.attributes.shortDescription}
+            {data?.attributes.shortDescription}
           </p>
           <button className={styles.cardButton} onClick={showModalWindow}>Подробнее</button>
         </div>

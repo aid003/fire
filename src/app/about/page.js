@@ -24,15 +24,15 @@ const Page = async () => {
         <div className={styles.container}>
           <div className={styles.aboutImg}>
             <SliderAbout
-              data={info.attributes.imgs.data}
+              data={info?.attributes.imgs.data}
               baseUrl={process.env.NEXT_GET_IMG}
             />
           </div>
           <div className={styles.mainText}>
             <div>
-              <h3 className={styles.heading}>{info.attributes.header}</h3>
+              <h3 className={styles.heading}>{info?.attributes.header}</h3>
             </div>
-            <p className={styles.text}>{info.attributes.text}</p>
+            <p className={styles.text}>{info?.attributes.text}</p>
             <MapsAbout></MapsAbout>
           </div>
         </div>

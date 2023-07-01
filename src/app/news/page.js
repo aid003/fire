@@ -10,7 +10,7 @@ const getInfo = async () => {
     { next: { revalidate: 300, useCdn: false } }
   );
   //   console.log(data.data);
-  return data.data;
+  return data?.data;
 };
 
 const page = async () => {

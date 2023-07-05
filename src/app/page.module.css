@@ -1,7 +1,7 @@
 .container {
   width: 100%;
-  /* background-image: url("../../public/favicon/photo_2023-06-21_23-41-58.jpg"); */
-  /* background-repeat: no-repeat; */
+  background-image: url("../../public/favicon/photo_2023-06-21_23-41-58.jpg");
+  background-repeat: repeat repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,10 @@
 }
 
 .textParag {
-  width: 30%;
+  width: 50%;
+  font-size: x-large;
+  font-weight: 600;
+  line-height: 1.1
 
 }
 

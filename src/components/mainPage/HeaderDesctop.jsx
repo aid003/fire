@@ -41,7 +41,7 @@ const HeaderDesctop = ({ children }) => {
 						<Link className={styles.categoryLink} href={'/news'}>Новости</Link>
 					</li>
 					<li className={styles.categoryItem}>
-						<Link className={styles.categoryLink} href={'/media'}>Медия</Link>
+						<Link className={styles.categoryLink} href={'/media'}>Медиа</Link>
 					</li>
 				</ul>
 				<div className={styles.burgerMenu} onClick={changeConditionHandler}>
@@ -64,7 +64,7 @@ const HeaderDesctop = ({ children }) => {
 								<Link className={styles.categoryLink} href={'/news'}>Новости</Link>
 							</li>
 							<li className={styles.burgerItem}>
-								<Link className={styles.categoryLink} href={'/media'}>Медия</Link>
+								<Link className={styles.categoryLink} href={'/media'}>Медиа</Link>
 							</li>
 						</ul>
 					}

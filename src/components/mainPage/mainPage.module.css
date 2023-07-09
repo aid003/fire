@@ -56,13 +56,14 @@
 .circle {
   content: "";
   height: 100%;
-  width: 25%;
+  width: 10%;
   border-radius: 40%;
   background-color: #91a6ff;
   cursor: pointer;
 }
 
 .buttonRedirect {
+  padding: 0 30% 0 25%;
   height: 100%;
   border-radius: 20%;
   border: none;
@@ -78,12 +79,7 @@
   height: max-content;
 }
 
-.logoImg {
-  min-width: 90%;
-  max-width: 90%;
-  min-height: 20vh;
-  max-height: 20vh;
-}
+
 
 .formButton:hover {
   background-color: #91a6ff;
@@ -117,8 +113,14 @@
 }
 
 @media(max-width: 1270px) {
+  .logoImg {
+   
+    width: 132px;
+    
+  }
   .burgerMenu {
     display: block;
+    
   }
 
   .categoryList {
@@ -131,7 +133,7 @@
   }
 
   .buttonBurg {
-    margin-left: 40vh;
+    margin-left: 80vh;
     font-size: 50px;
     color: white;
   }
@@ -164,13 +166,22 @@
 }
 
 @media (max-width: 835px) {
+  .logoImg {
+   
+    width: 132px;
+    
+  }
+  .burgerMenu {
+    display: block;
+  }
   .buttonBurg {
-    margin-left: 100%;
+    margin-left: 50vh;
+    font-size: 50px;
+    color: white;
   }
+  
 
-  .container {
-    width: 100%;
-  }
+  
 
   .formButton {
     width: 70%;
@@ -181,23 +192,22 @@
   }
 
   .logoImg {
-    min-height: 12vh;
-    max-height: 12vh;
-    min-width: 95%;
-    max-width: 95%;
+    width: 90%;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
   .formButton {
     width: 85%;
   }
+  .buttonBurg {
+    margin-left: 30vh;
+    font-size: 50px;
+    color: white;
+  }
 
   .logoImg {
-    min-height: 15vh;
-    max-height: 15vh;
-    min-width: 90%;
-    max-width: 90%;
+   width: 70%;
   }
   
 }
@@ -206,4 +216,16 @@
   .circle {
     border-radius: 50%;
   }
+  .burgerMenu {
+    display: block;
+    width: 50%;
+    
+  }
+  .logoImg {
+   
+    width: 132px;
+    
+  }
+  
 }
+

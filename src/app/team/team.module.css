@@ -5,11 +5,13 @@
   justify-content: space-between;
   width: 100%;
   flex-wrap: wrap;
+  background: linear-gradient(to top left, #454545, #ffff 60%);
 }
 
 .cardContainer {
   display: flex;
-  width: 47%;
+  flex-direction: row;
+  width: 45%;
   height: 50vh;
   background-color: rgb(42, 56, 87);
   justify-content: space-between;

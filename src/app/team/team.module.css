@@ -5,6 +5,7 @@
   justify-content: space-between;
   width: 100%;
   flex-wrap: wrap;
+  background: linear-gradient(to top left, #454545, #ffff 60%);
 }
 
 .cardContainer {

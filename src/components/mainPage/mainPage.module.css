@@ -41,8 +41,8 @@
 }
 
 .formButton {
-  width: 50%;
-  height: 7vh;
+  width: 40%;
+  height: 8vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -50,14 +50,14 @@
   border-radius: 60px;
   border: 2px solid #91a6ff;
   cursor: pointer;
-  background-color: whitesmoke;
   margin-bottom: 10vh;
+  background-color: whitesmoke;
 }
 
 .circle {
   content: "";
   height: 100%;
-  width: 60px;
+  width: 15%;
   border-radius: 60px;
   background-color: #91a6ff;
   cursor: pointer;
@@ -107,33 +107,24 @@
   display: none;
 }
 
-@media(max-height: 910px) {
-  .formButton{
-    max-height: 70px;
-  }
-
-  .circle{
-    max-height: 70px;
-  }
-
-  .buttonRedirect{
-    max-height: 70px;
-  }
-}
-
 @media(max-width: 1455px) {
   .categoryList {
     margin-left: 10vh;
   }
-  .circle{
-    width: 18%;
+
+  .buttonRedirect {
+    padding: 0 28% 0 23%;
+  }
+
+  .circle {
+    width: 25%;
   }
 }
 
 @media(max-width: 1270px) {
   .logoImg {
    
-    width: 132px;
+    width: 182px;
     
   }
   .burgerMenu {
@@ -182,19 +173,19 @@
     color: white;
   }
 
-  .circle{
-    width: 25%;
+  .formButton {
+    width: 720px;
   }
 
-  .formButton{
-    width: 500px;
+  .circle {
+    width: 70px;
   }
 }
 
 @media (max-width: 835px) {
   .logoImg {
    
-    width: 132px;
+    width: 182px;
     
   }
   .burgerMenu {
@@ -205,81 +196,78 @@
     font-size: 50px;
     color: white;
   }
-  
-
-  
-
-  .formButton {
-    width: 70%;
-  }
 
   .heading {
     font-size: x-large;
   }
 
   .logoImg {
-    width: 90%;
+   
+    width: 182px;
+    
   }
 
-  .circle{
-    width: 23%;
-  }
-
-  .formButton{
+  .formButton {
     width: 450px;
+  }
+
+  .circle {
+    width: 60px;
   }
 }
 
+  
+
+
 @media (max-width: 550px) {
-  .formButton {
-    width: 85%;
-  }
+
   .buttonBurg {
-    margin-left: 30vh;
+    margin-left: 25vh;
     font-size: 50px;
     color: white;
   }
 
   .logoImg {
-   width: 70%;
+    width: 182px;
   }
 
-  .circle{
-    width: 30%;
-  }
-
-  .formButton{
-    width: 340px;
+  .formButton {
+    width: 350px;
   }
 
   .buttonRedirect {
-    padding: 0 22% 0 17%;
+    padding: 0 20% 0 15%;
+  }
+
+  .circle {
+    width: 70px;
   }
   
 }
 
-@media(max-width: 380px) {
+@media(max-width: 400px) {
+
   .burgerMenu {
     display: block;
     width: 50%;
     
   }
   .logoImg {
-    width: 132px;
+   
+    width: 182px;
     
   }
-
-  .circle{
-    width: 33%;
-  }
-
-  .formButton{
+  .formButton {
     width: 250px;
   }
 
   .buttonRedirect {
-    padding: 0 12% 0 7%;
-    font-size: 15px;
+    padding: 0 15% 0 10%;
+    font-size: 15px
+  }
+
+  .circle {
+    width: 60px;
   }
   
 }

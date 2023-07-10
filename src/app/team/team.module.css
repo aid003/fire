@@ -5,14 +5,12 @@
   justify-content: space-between;
   width: 100%;
   flex-wrap: wrap;
-  background: linear-gradient(to top left, #454545, #ffff 60%);
 }
 
 .cardContainer {
   display: flex;
-  flex-direction: row;
-  width: 45%;
-  height: 50vh;
+  width: 47%;
+  
   background-color: rgb(42, 56, 87);
   justify-content: space-between;
   padding: 2vh;
@@ -65,3 +63,140 @@
   font-weight: 500;
   font-size: 12px;
 }
+
+
+
+
+@media(max-width: 2000px) {
+  .cardContainer {
+    display: flex;
+    width: 44%;
+    height: 45vh;
+    background-color: rgb(42, 56, 87);
+    justify-content: space-between;
+    padding: 2vh;
+    margin: 3.5vh 1.5vh 3.5vh 1.5vh;
+    border-radius: 2px;
+    font-size:10px
+  }
+}
+@media(max-width: 920px) {
+  .cardContainer {
+    width: 40%;
+    height: 30vh;
+    margin: 3.5vh 1vh 3.5vh 1vh;
+  }
+
+    .cardName{
+      font-size: 10px;
+      font-weight: 700;
+    }
+    
+    .cardRange {
+      margin-top: 2vh;
+      color: gainsboro;
+      font-weight: 500;
+      font-size: 7px;
+    }
+    
+    .cardText {
+      font-weight: 500;
+      font-size: 7px;
+    }
+   
+  }
+
+@media(max-width: 720px) {
+  .cardContainer {
+    width: 40%;
+    height: 23vh;
+  }
+  
+  .cardName{
+    font-size: 8px;
+    font-weight: 700;
+  }
+  
+  .cardRange {
+    margin-top: 2vh;
+    color: gainsboro;
+    font-weight: 500;
+    font-size: 7px;
+  }
+  
+  .cardText {
+    font-weight: 500;
+    font-size: 5px;
+  }
+}
+
+
+
+
+
+
+
+@media(max-width: 520px) {
+  .container{
+    padding: 2.5vh;
+  }
+  
+
+  .cardContainer {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 1vh 2vh 1vh 2vh;
+    
+  }
+
+  
+  .cardRange {
+    margin-top: 2vh;
+    color: gainsboro;
+    font-weight: 500;
+    
+    display: flex;
+    flex-wrap: wrap;
+    white-space: wrap;
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  .cardName {
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    white-space: wrap;
+    align-self: flex-start;
+  }
+  
+  .cardText {
+    font-weight: 500;
+    font-size: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    white-space: wrap;
+    align-self: flex-start;
+    padding-bottom: 15px;
+  }
+  
+  .cardLeftImgSide{
+    width: 100%;
+    height: 70%;
+  }
+  .cardRightSide{
+    width: 100%;
+    
+  }
+  
+  
+}
+
+
+
+
+

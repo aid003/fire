@@ -41,24 +41,23 @@
 }
 
 .formButton {
-  width: 50%;
-  height: 7vh;
+  width: 40%;
+  height: 9vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  border-radius: 60px;
+  border-radius: 30px;
   border: 2px solid #91a6ff;
   cursor: pointer;
-  background-color: whitesmoke;
   margin-bottom: 10vh;
 }
 
 .circle {
   content: "";
   height: 100%;
-  width: 60px;
-  border-radius: 60px;
+  width: 10%;
+  border-radius: 40%;
   background-color: #91a6ff;
   cursor: pointer;
 }
@@ -66,7 +65,7 @@
 .buttonRedirect {
   padding: 0 30% 0 25%;
   height: 100%;
-  border-radius: 60px;
+  border-radius: 20%;
   border: none;
   background-color: inherit;
   font-size: large;
@@ -107,33 +106,16 @@
   display: none;
 }
 
-@media(max-height: 910px) {
-  .formButton{
-    max-height: 70px;
-  }
-
-  .circle{
-    max-height: 70px;
-  }
-
-  .buttonRedirect{
-    max-height: 70px;
-  }
-}
-
 @media(max-width: 1455px) {
   .categoryList {
     margin-left: 10vh;
-  }
-  .circle{
-    width: 18%;
   }
 }
 
 @media(max-width: 1270px) {
   .logoImg {
    
-    width: 132px;
+    width: 182px;
     
   }
   .burgerMenu {
@@ -181,20 +163,12 @@
   .categoryLink {
     color: white;
   }
-
-  .circle{
-    width: 25%;
-  }
-
-  .formButton{
-    width: 500px;
-  }
 }
 
 @media (max-width: 835px) {
   .logoImg {
    
-    width: 132px;
+    width: 182px;
     
   }
   .burgerMenu {
@@ -218,68 +192,56 @@
   }
 
   .logoImg {
-    width: 90%;
-  }
-
-  .circle{
-    width: 23%;
-  }
-
-  .formButton{
-    width: 450px;
+   
+    width: 182px;
+    
   }
 }
 
 @media (max-width: 550px) {
   .formButton {
-    width: 85%;
+    width: 40%;
+  }
+  .formButton:hover{
+    width: 40%;
   }
   .buttonBurg {
-    margin-left: 30vh;
+    margin-left: 25vh;
     font-size: 50px;
     color: white;
   }
 
   .logoImg {
-   width: 70%;
-  }
-
-  .circle{
-    width: 30%;
-  }
-
-  .formButton{
-    width: 340px;
-  }
-
-  .buttonRedirect {
-    padding: 0 22% 0 17%;
+   
+    width: 182px;
+    
   }
   
 }
 
-@media(max-width: 380px) {
+@media(max-width: 400px) {
+  .circle {
+    border-radius: 10%;
+  }
   .burgerMenu {
     display: block;
     width: 50%;
     
   }
   .logoImg {
-    width: 132px;
+   
+    width: 182px;
     
   }
-
-  .circle{
-    width: 33%;
-  }
-
-  .formButton{
-    width: 250px;
-  }
-
   .buttonRedirect {
-    padding: 0 12% 0 7%;
-    font-size: 15px;
+    padding: 0 30% 0 20%;
+    height: 100%;
+    border-radius: 20%;
+    border: none;
+    background-color: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
   }
   
 }

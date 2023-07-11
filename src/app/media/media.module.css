@@ -6,6 +6,8 @@
   justify-content: center;
   flex-direction: column;
   background: linear-gradient(to top left, #454545, #ffff 60%);
+  background-size: cover;
+  min-height: 100vh;
 }
 
 .heading {

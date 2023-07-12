@@ -142,7 +142,7 @@
   }
 
   .buttonBurg {
-    margin-left: 80vh;
+    margin-left: 100vh;
     font-size: 50px;
     color: white;
   }
@@ -181,6 +181,15 @@
     width: 70px;
   }
 }
+@media(max-width: 950px) {
+  .buttonBurg {
+    margin-left: 85vh;
+    font-size: 50px;
+    color: white;
+  }
+
+
+}
 
 @media (max-width: 835px) {
   .logoImg {
@@ -215,14 +224,40 @@
     width: 60px;
   }
 }
+@media (max-width: 816px) {
+  .buttonBurg {
+    margin-left: 60vh;
+    font-size: 50px;
+    color: white;
+  }
 
-  
+}
+@media (max-width: 816px) {
+  .buttonBurg {
+    
+    font-size: 50px;
+    color: white;
+  }
+
+}
+@media (max-width: 665px) {
+  .buttonBurg {
+    margin-left: 45vh;
+    font-size: 40px;
+    color: white;
+  }
+
+}
+
+
+
+
 
 
 @media (max-width: 550px) {
 
   .buttonBurg {
-    margin-left: 25vh;
+    
     font-size: 50px;
     color: white;
   }
@@ -244,8 +279,22 @@
   }
   
 }
+@media (max-width: 570px) {
+
+  .buttonBurg {
+    margin-left: 30vh;
+    font-size: 50px;
+    color: white;
+  }
+}
 
 @media(max-width: 400px) {
+  .buttonBurg {
+    margin-left: 25vh;
+    font-size: 50px;
+    color: white;
+  }
+
 
   .burgerMenu {
     display: block;

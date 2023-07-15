@@ -21,7 +21,7 @@ const page = async () => {
       <HeaderDesctop>
         <div className={styles.container}>
           {info.map((el) => (
-            <Card key={el.id} name={el.attributes.name} range={el.attributes.range} text={el.attributes.text} img={`${process.env.NEXT_GET_IMG}${el.attributes.img.data.attributes.url}`}></Card>
+            <Card key={el.id} name={el?.attributes?.name} range={el?.attributes?.range} text={el?.attributes?.text} img={`${process.env.NEXT_GET_IMG}${el.attributes.img.data.attributes.url}`}></Card>
           ))}
         </div>
       </HeaderDesctop>
